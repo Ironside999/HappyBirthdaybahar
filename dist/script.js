@@ -1,4 +1,8 @@
-const button = document.querySelector('.button')
-button.addEventListener('click', () => {
-    alert("haaaaaaaaa")
+
+const button = document.getElementById('audio');
+// button.play();
+
+document.body.addEventListener('load', () => {
+    button.play();
 })
+    
