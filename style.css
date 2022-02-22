@@ -107,7 +107,8 @@ body {
 }
 
 .audio {
-    visibility: hidden;
+   width: 2px;
+   display: block;
 }
 
 .gift {
@@ -116,5 +117,5 @@ body {
     border: 3px solid #fff;
     border-radius: 3px;
     padding: 5px;
-    margin-left: 530px;
+    margin-left: 800px;
 }
