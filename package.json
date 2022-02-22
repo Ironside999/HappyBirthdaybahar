@@ -1,0 +1,15 @@
+{
+  "name": "deploy-on-github",
+  "version": "1.0.0",
+  "description": "Web Page For The Birthday",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Ironside",
+  "license": "ISC",
+  "homepage": "https://Ironside-Learning.github.io/Happy_Birthday_Bahar",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
