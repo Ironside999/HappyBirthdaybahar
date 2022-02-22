@@ -1,13 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Happy+Monkey&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: red;
+    background-color: #000066
 }
 
-h2 {
-    color: white;
+.ballon {
+    height: 60px;
+    width: 55px;
+    border-radius: 50%;
+    top: 40%;
+    left: 10%;
+    position: absolute;
+    background-color: crimson;
+    animation: move 2s ease-in infinite;
 }
 
-.redirect-button {
-    margin-top: 30px;
-    display: block;
-    
+.ballon:before {
+    height: 70px;
+    width: 6px;
+    background-color: #fff;
+    content: "";
+    position: absolute;
+    left: 43%;
+    top: 100%;
 }
+
+@keyframes move {
+    0%{
+        top: 100%;
+    }
+    100% {
+        top: 0%;
+    }
+}
+
+.ballon:nth-child(2) {
+    left: 10%;
+    top: 40;
+    background-color: crimson;
+    animation-duration: 3s;
+}
+
+.ballon:nth-child(3) {
+    left: 20%;
+    top: 40;
+    background-color: white;
+    animation-duration: 1s;
+}
+
+.ballon:nth-child(4) {
+    left: 30%;
+    top: 40;
+    background-color: gray;
+    animation-duration: 3s;
+}
+
+.ballon:nth-child(5) {
+    left: 40%;
+    top: 40;
+    background-color: orange;
+    animation-duration: 4s;
+}
+
+.ballon:nth-child(6) {
+    left: 50%;
+    top: 40;
+    background-color: yellow;
+    animation-duration: 5s;
+}
+
+.ballon:nth-child(7) {
+    left: 60%;
+    top: 40;
+    background-color: orangered;
+    animation-duration: 2s;
+}
+
+
+.ballon:nth-child(8) {
+    left: 70%;
+    top: 40;
+    background-color: blue;
+    animation-duration: 5s;
+}
+
+.ballon:nth-child(9) {
+    left: 80%;
+    top: 40;
+    background-color: crimson;
+    animation-duration: 3s;
+}
+
+.text {
+    color: #fff;
+    top: 35%;
+    left: 35%;
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.audio {
+    visibility: hidden;
+}
+
