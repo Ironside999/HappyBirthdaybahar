@@ -99,8 +99,8 @@ body {
 
 .text {
     color: #fff;
-    top: 35%;
-    left: 35%;
+    top: 10%;
+    left: 10%;
     position: absolute;
     font-size: 50px;
     font-family: 'Happy Monkey', cursive;
@@ -111,14 +111,23 @@ body {
 }
 
 .gift {
-    color: #fff;
+    /* color: #fff; */
     text-decoration: none;
     border: 3px solid #fff;
     border-radius: 3px;
-    padding: 5px;
-    margin-left: 830px;
-    margin-top: 200px;
+    padding: px;
+    margin-left: 43px;
+    margin-top: 250px;
     display: block;
-    width: 150px;
+    width: 100px;
     text-align: center;
+    background-color: rgb(129, 129, 129);
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.gift:hover {
+    color: rgb(187, 255, 0);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
